@@ -1,0 +1,5 @@
+nome = print("Olá, " + input("Informe seu nome: " ) + "!")
+salario = float(input("Informe seu salário: "))
+bonus =  float(input("Informa o percentual do bonus: "))
+valor_bonus = 1000 + (salario * bonus)
+print(f"O valor a receber será: R${valor_bonus}")
