@@ -10,6 +10,6 @@ salario = float(input("Informe seu salário: "))
 bonus =  float(input("Informa o percentual do bonus: "))
 
 # Calculo do bônus anual de 2024
-valor_bonus = 1000 + (salario * bonus)
+valor_bonus = 1000 + salario + (salario * (bonus)/100 )
 # Imprime o bônus
 print(f"O valor do bônus de 2024 será: R$ {valor_bonus}")
