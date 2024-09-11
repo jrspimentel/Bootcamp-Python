@@ -4,9 +4,9 @@ produto_3: str = "videogame"
 
 lista = ['sapato', 'camiseta', 'videogame', 'computador']
 
-produto: list = []
+p = []
 
-for produtos in lista:
-    if produto not in lista:
-        produto.append(lista)
-print(lista)
+for produto in lista:
+    if produto in lista:
+        p.append(produto)  # Adiciona o item individual, não a lista completa
+print(p)
